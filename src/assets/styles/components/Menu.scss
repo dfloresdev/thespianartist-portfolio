@@ -1,0 +1,35 @@
+@import "../index.css";
+@import "../vars";
+
+.menu {
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+
+  &__signature {
+    img {
+      width: 50%;
+    }
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    a {
+      text-decoration: none;
+      color: black;
+      margin: auto 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    a:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-self: right;
+    margin: auto 0;
+  }
+}
