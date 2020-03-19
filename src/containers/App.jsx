@@ -1,12 +1,13 @@
 import React from "react";
-import logo from "../assets/statics/logo.svg";
-import Menu from "../components/Menu";
+import Header from "../components/header/Header";
+import Works from "../components/works/Works";
 import "../assets/styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Header />
+      <Works />
     </div>
   );
 }

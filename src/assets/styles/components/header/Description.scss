@@ -1,0 +1,29 @@
+@import "../../index.css";
+@import "../../vars";
+
+.container {
+  margin: 0;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  &__avatar {
+    img {
+      height: 300px;
+    }
+  }
+
+  &__text {
+    align-self: center;
+    .subtitle {
+      font-size: 25px;
+      margin: 0 0 10px 0;
+    }
+    .title {
+      margin: 0;
+      font-size: 65px;
+      font-weight: 700;
+    }
+  }
+}
