@@ -31,5 +31,9 @@
     display: flex;
     justify-self: right;
     margin: auto 0;
+
+    .basic-button {
+      box-shadow: 2px 2px 4px 0px #949494;
+    }
   }
 }
