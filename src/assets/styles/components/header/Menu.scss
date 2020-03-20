@@ -1,6 +1,4 @@
-@import "../../index.css";
-@import "../../vars";
-
+@import "../../vars.scss";
 .menu {
   display: grid;
   grid-template-columns: 10% 70% 20%;
@@ -33,6 +31,13 @@
     margin: auto 0;
 
     .basic-button {
+      text-transform: uppercase;
+      color: white;
+      background-color: $primary-color;
+      text-decoration: none;
+      padding: 15px 25px;
+      border-radius: 5px;
+
       box-shadow: 2px 2px 4px 0px #949494;
     }
   }

@@ -13,3 +13,12 @@ body {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 //     monospace;
 // }
+
+.basic-button {
+  text-transform: uppercase;
+  color: white;
+  background-color: $primary-color;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+}

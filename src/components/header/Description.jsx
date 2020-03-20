@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../../assets/statics/avenger.png";
-import "../../assets/styles/components/header/Description.css";
+import "../../assets/styles/components/header/Description.scss";
 
 const Description = () => (
   <div className="container" style={{ padding: 0 }}>

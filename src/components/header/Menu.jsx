@@ -1,6 +1,6 @@
 import React from "react";
 import signature from "../../assets/statics/Uriel-signed.png";
-import "../../assets/styles/components/header/Menu.css";
+import "../../assets/styles/components/header/Menu.scss";
 
 const Menu = () => (
   <div className="container">

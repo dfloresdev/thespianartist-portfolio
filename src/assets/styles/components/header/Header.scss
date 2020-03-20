@@ -1,10 +1,8 @@
-@import "../../vars.scss";
-
 .container-header {
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    rgb(99, 96, 199, 0.5) 100%
+    rgba(99, 96, 199, 0.5) 100%
   );
   border-bottom-left-radius: 200px;
 }
