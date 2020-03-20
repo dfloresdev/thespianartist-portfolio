@@ -22,5 +22,6 @@
     margin: 20px 0 0 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px 20px;
   }
 }

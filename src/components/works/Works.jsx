@@ -21,6 +21,43 @@ const Works = () => (
           year="2018"
           url="https://marvelapp.com/6b4c8h1/screen/67126326"
         />
+        <Card
+          image={temporalImage}
+          title="Shopping Pickup Concept"
+          platform="Android"
+          year="2020"
+          url="https://marvelapp.com/6b4c8h1/screen/67126327"
+        />
+
+        <Card
+          image={temporalImage}
+          title="New home for students at Platzi"
+          platform="Web Responsive"
+          year="2019"
+          url="https://marvelapp.com/6b4c8h1/screen/67126325"
+        />
+        <Card
+          image={temporalImage}
+          title="Electronic Vote Concept"
+          platform="Web Responsive"
+          year="2019"
+          url="https://marvelapp.com/6b4c8h1/screen/67126324"
+        />
+
+        <Card
+          image={temporalImage}
+          title="BarcadeVG Store"
+          platform="Web Responsive"
+          year="2019"
+          url="https://marvelapp.com/6b4c8h1/screen/67126323"
+        />
+        <Card
+          image={temporalImage}
+          title="The π Game"
+          platform="Web Responsive"
+          year="2019"
+          url="https://marvelapp.com/6b4c8h1/screen/67126328"
+        />
       </div>
     </div>
   </div>
