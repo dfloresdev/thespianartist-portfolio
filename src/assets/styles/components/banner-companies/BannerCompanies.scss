@@ -1,0 +1,26 @@
+@import "../../vars";
+.banner-companies {
+  height: 50vh;
+  background: linear-gradient(to bottom, black, $primary-color);
+  margin-top: -16vh;
+  &__container {
+    padding-top: 20vh;
+    color: #e9e7f0;
+
+    .title {
+      p {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 700;
+      }
+    }
+    .container-companies {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      img {
+        width: 15%;
+      }
+    }
+  }
+}
