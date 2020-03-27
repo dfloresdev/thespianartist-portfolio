@@ -37,7 +37,7 @@ npm run start
 
 #### Build
 
-If you want change the code, you must recompile
+If you want deploy the project, run the next command
 
 ```markdown
 npm run build
