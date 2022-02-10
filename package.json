@@ -34,7 +34,7 @@
   "description": "ThespianArtist's portfolio",
   "main": "index.js",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "keywords": [
     "React",
